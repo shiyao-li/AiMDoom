@@ -1,0 +1,6 @@
+name: doom
+channels:
+  - defaults
+dependencies:
+  - python=2.7
+prefix: /home/sli/anaconda3/envs/doom
