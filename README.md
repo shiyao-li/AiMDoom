@@ -1,6 +1,6 @@
 # AiMDoom
 
-![Logo](img/logo.png)
+![Logo](img/logo.jpg)
 
 This repository contains the AiMDoom dataset and the toolkit used to generate this dataset.
 
@@ -68,7 +68,8 @@ blender-4.1.1/blender -b --warm_texture_images.py -- /path/to/your/folder
 ```
 
 ## License
-This dataset is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+This dataset is released under the [MIT License](LICENSE).
+
 If you use this dataset or our code, please cite the following paper:
 
 ```
