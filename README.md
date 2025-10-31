@@ -48,7 +48,7 @@ python omgifol/demo/wad2obj.py -s /path/to/your/folder
 This script essentially reorganizes 3D scene collections by separating each OBJ file into its own folder with properly structured texture references.
 
 ```
-python script.py /path/to/your/folder
+python omgifol/demo/wad_files_process.py /path/to/your/folder
 ```
 
 ### 4. Clean Up 3D Scenes with Blender
@@ -64,7 +64,7 @@ blender-4.1.1/blender -b --python blender_process.py -- /path/to/your/folder
 Finally, perform texture baking to allow the models to be processed directly by most mainstream 3D libraries like PyTorch3D. This script essentially simplifies 3D models by baking all texture information into a single unified texture, making them more efficient and easier to work with.
 
 ```
-blender-4.1.1/blender -b --warm_texture_images.py -- /path/to/your/folder
+blender-4.1.1/blender -b --warmp_texture_images.py -- /path/to/your/folder
 ```
 
 ## License
